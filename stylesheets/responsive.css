@@ -20,9 +20,7 @@ article > * { width: calc(100% - 40px); }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   /* iPad */
 	article img {width: 100%;}
-	article p{font-size: 18px;}
-	article h1{font-size: 24px;}
-	article h2{font-size: 22px;}
+
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -33,6 +31,9 @@ article > * { width: calc(100% - 40px); }
   /* iPhone */
 	article > * {margin-left: 10px; margin-right: 10px;}
 	article img {width: 100%;}
+	article p{font-size: 18px;}
+	article h1{font-size: 24px;}
+	article h2{font-size: 22px;}
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: landscape) {
