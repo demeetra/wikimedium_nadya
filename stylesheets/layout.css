@@ -14,8 +14,9 @@ a { color: inherit;
   align-items: center;
   height: 50px;
   padding: 0px 20px;
-  border-bottom: solid 1px #aaa;
-  box-shadow: 0 2px 5px 4px rgba(0, 0, 0, .5);
+  background: white;
+  /* border-bottom: solid 1px #aaa; */
+  box-shadow: 0 2px 5px 4px rgba(0, 0, 0, .1);
 
 
 }
